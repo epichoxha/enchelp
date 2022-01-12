@@ -45,7 +45,7 @@ func init() {
 	rootCmd.AddCommand(xorCmd)
 
 	xorCmd.Flags().StringP(
-		"format-in", "", "hex", "Output format, choose between csharp, vba, raw, hex",
+		"format-in", "", "hex", "Input format, choose between csharp, vba, raw, hex",
 	)
 	xorCmd.Flags().StringP(
 		"format-out", "", "csharp", "Output format, choose between csharp, vba, raw, hex",
